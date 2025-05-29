@@ -1,8 +1,8 @@
-import ReactPDF from '@react-pdf/renderer'
+import { Styles } from '@react-pdf/renderer'
 import styles from './styles'
 
-const compose = (classes: string): ReactPDF.Styles => {
-  const css: ReactPDF.Styles = {
+const compose = (classes: string): Styles => {
+  const css: Styles = {
     //@ts-ignore
     '@import': 'url(https://fonts.bunny.net/css?family=nunito:400,600)',
   }
